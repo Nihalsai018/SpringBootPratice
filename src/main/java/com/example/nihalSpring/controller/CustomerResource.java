@@ -1,4 +1,4 @@
-package com.example.nihalSpring.api;
+package com.example.nihalSpring.controller;
 
 import com.example.nihalSpring.model.Customer;
 import com.example.nihalSpring.service.CustomerService;
