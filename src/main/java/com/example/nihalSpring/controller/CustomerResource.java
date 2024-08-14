@@ -15,7 +15,11 @@ public class CustomerResource {
     private CustomerService customerService;
 
     @PostMapping("/saverecords")
-    public Customer addCustomer( @RequestBody Customer customer){ // who this responsible to call this api
+    public Customer addCustomer( @RequestBody Customer customer) throws InterruptedException { // who this responsible to call this api
+
+        System.out.println("starting sleep");
+        Thread.sleep(5000l);
+        System.out.println("Sleep done");
         return customerService.addCustomer(customer);
 
     }
