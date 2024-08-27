@@ -5,6 +5,7 @@ public class Pratice {
     // added second statment
     //mergee working
     //first commit
+    //second commit
 
 }
 
