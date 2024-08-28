@@ -6,6 +6,6 @@ public class Feature2 {
 
     //creating merge confix now
     //in global commit changes 
-    //creating merge conflix in feature2class
+    //creating merge conflix in feature2class in local
 
 }
